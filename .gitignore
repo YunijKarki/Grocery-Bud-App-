@@ -1,0 +1,114 @@
+
+
+## Build generated	## User settings
+xcuserdata/
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/	build/
+DerivedData/	DerivedData/
+
+*.moved-aside
+## Various settings	
+*.pbxuser	*.pbxuser
+!default.pbxuser	!default.pbxuser
+*.mode1v3	*.mode1v3
+@@ -15,15 +21,11 @@ DerivedData/
+!default.mode2v3	!default.mode2v3
+*.perspectivev3	*.perspectivev3
+!default.perspectivev3	!default.perspectivev3
+xcuserdata/	
+
+## Other	
+*.moved-aside	
+*.xccheckout	
+*.xcscmblueprint	
+
+/node _modules
+/*.env
+## Obj-C/Swift specific	## Obj-C/Swift specific
+*.hmap	*.hmap
+
+## App packaging
+*.ipa	*.ipa
+*.dSYM.zip	*.dSYM.zip
+*.dSYM	*.dSYM
+@@ -44,12 +46,12 @@ xcuserdata/
+# Add this line if you want to avoid checking in source code from Carthage dependencies.	# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts	# Carthage/Checkouts
+
+
+Carthage/Build	Carthage/Build/
+
+
+# fastlane	# fastlane
+#	#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the	# It is recommended to not store the screenshots in the git repo.
+# screenshots whenever they are needed.	# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:	# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control	# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+
+  26  Swift.gitignore 
+@@ -2,11 +2,17 @@
+#	#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore	# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+
+## Build generated	## User settings
+xcuserdata/
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/	build/
+DerivedData/	DerivedData/
+
+*.moved-aside
+## Various settings	
+*.pbxuser	*.pbxuser
+!default.pbxuser	!default.pbxuser
+*.mode1v3	*.mode1v3
+@@ -15,15 +21,11 @@ DerivedData/
+!default.mode2v3	!default.mode2v3
+*.perspectivev3	*.perspectivev3
+!default.perspectivev3	!default.perspectivev3
+xcuserdata/	
+
+## Other	
+*.moved-aside	
+*.xccheckout	
+*.xcscmblueprint	
+
+
+## Obj-C/Swift specific	## Obj-C/Swift specific
+*.hmap	*.hmap
+
+## App packaging
+*.ipa	*.ipa
+*.dSYM.zip	*.dSYM.zip
+*.dSYM	*.dSYM
+@@ -62,16 +64,16 @@ playground.xcworkspace
+# Add this line if you want to avoid checking in source code from Carthage dependencies.	# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts	# Carthage/Checkouts
+
+
+Carthage/Build	Carthage/Build/
+
+
+# Accio dependency management	# Accio dependency management
+Dependencies/	Dependencies/
+.accio/	.accio/
+
+
+# fastlane	# fastlane
+#	#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the	# It is recommended to not store the screenshots in the git repo.
+# screenshots whenever they are needed.	# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:	# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
